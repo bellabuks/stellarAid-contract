@@ -584,4 +584,6 @@ mod test {
     pub mod release_milestone_tests;
     pub mod admin_tests;
     pub mod formal_verification_tests;
+    pub mod freeze_tests;
+    pub mod upgrade_tests;
 }
