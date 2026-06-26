@@ -1,32 +1,3 @@
-# Dependencies
 /target
-/Cargo.lock
-
-# Environment
 .env
-.env.local
-.env.testnet
-.env.mainnet
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Build artifacts
 *.wasm
-*.d
-
-# Soroban
-.stellar/
-soroban.toml
-
-# Deployment records (contain network-specific contract IDs; committed per-env as needed)
-deployments/*.json
-.stellaraid_contract_id
